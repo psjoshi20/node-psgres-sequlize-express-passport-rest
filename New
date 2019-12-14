@@ -1,0 +1,49 @@
+Build a simple demo app that demonstrates your understanding
+ of REST, NodeJS, JavaScript, Postgres SQL, Sequelize and ExpressJS.
+
+
+onst Todo = require('../models').Todo;
+
+module.exports = {
+  create(req, res) {
+    return Todo
+      .create({
+        title: req.body.title,
+      })
+      .then(todo => res.status(201).send(todo))
+      .catch(error => res.status(400).send(error));
+  },
+};
+const todos = require('./todos');
+
+module.exports = {
+  todos,
+};
+
+config.json
+{
+  "development": {
+    "username": "todouser2",
+    "password": "todouser2",
+    "database": "bookstore_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+
+  "test": {
+      "username": "todouser2",
+      "password": "todouser2",
+      "database": "bookstore_test",
+      "host": "127.0.0.1",
+      "dialect": "postgres"  
+    
+  },
+
+  "production": {
+      "username": "todouser2",
+      "password": "todouser2",
+      "database": "bookstore_test",
+      "host": "127.0.0.1",
+      "dialect": "postgres" 
+  }
+}
