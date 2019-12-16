@@ -1,0 +1,27 @@
+{
+  "name": "node-psgres-sequlize-express-passport-rest",
+  "version": "1.0.0",
+  "description": "Build a simple demo app that demonstrates your understanding  of REST, NodeJS, JavaScript, Postgres SQL, Sequelize and ExpressJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psjoshi20/node-psgres-sequlize-express-passport-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psjoshi20/node-psgres-sequlize-express-passport-rest/issues"
+  },
+  "homepage": "https://github.com/psjoshi20/node-psgres-sequlize-express-passport-rest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1"
+  }
+}
