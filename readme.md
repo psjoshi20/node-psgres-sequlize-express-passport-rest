@@ -1,5 +1,8 @@
 Build a simple demo app that demonstrates your understanding
  of REST, NodeJS, JavaScript, Postgres SQL, Sequelize and ExpressJS.
+ (gitrepo - available https://github.com/psjoshi20/node-psgres-sequlize-express-passport-rest/blob/master/readme.md
+ on my terminal-> ~/node-psgres-sequlize-express-passport-rest)
+
 
  Create Express.js Project and Install Required Modules
 Add and Configure Sequelize.js Module and Dependencies
